@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code repository
-                git 'your_repository_url'
+                git 'https://github.com/Zuhairhadi/MavenProject223.git'
             }
         }
         
